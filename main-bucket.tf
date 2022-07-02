@@ -1,4 +1,4 @@
-module "s3website" {
+module "bucket" {
   source = "smartassistco/s3website/aws"
 
   project_name = var.project_name

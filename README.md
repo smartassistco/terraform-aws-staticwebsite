@@ -32,8 +32,8 @@ Creates a static website with all the necessary dependencies:
 
 | Name | Source | Version |
 |------|--------|---------|
+| <a name="module_bucket"></a> [bucket](#module\_bucket) | smartassistco/s3website/aws | n/a |
 | <a name="module_certificate"></a> [certificate](#module\_certificate) | smartassistco/cloudflare-validated-acm/aws | n/a |
-| <a name="module_s3website"></a> [s3website](#module\_s3website) | smartassistco/s3website/aws | n/a |
 
 ## Resources
 
