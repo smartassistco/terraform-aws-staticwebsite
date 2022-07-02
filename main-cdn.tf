@@ -19,7 +19,7 @@ resource "aws_cloudfront_distribution" "cloudfront_distribution" {
   }
 
   origin {
-    domain_name = module.s3website.website_endpoint
+    domain_name = module.bucket.website_endpoint
     origin_id   = "S3StaticWebsiteOrigin"
 
     custom_origin_config {
